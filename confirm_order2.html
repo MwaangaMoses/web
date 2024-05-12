@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="confirm_order2.css">
+    <title>Confirm iPhone Case Order</title>
+</head>
+<body>
+    <header>
+        <h1>Confirm Your iPhone Case Order</h1>
+        <p>Please provide your details:</p>
+    </header>
+
+    <section class="order-form">
+        <form action="https://wa.me/<+260975559159>" method="GET">
+            <div class="form-group">
+                <label for="product">Product Name:</label>
+                <input type="text" id="product" name="product" value="iPhone Silicon Case" readonly>
+            </div>
+            <div class="form-group">
+                <label for="iphone-model">Select iPhone Model:</label>
+                <select id="iphone-model" name="iphone-model">
+                    <option value="iPhone 6"></option>
+                    <option value="iPhone 5">iPhone 5</option>
+                    <option value="iPhone 5s">iPhone 5s</option>
+                    <option value="iPhone 6">iPhone 6</option>
+                    <option value="iPhone 6+">iPhone 6+</option>
+                    <option value="iPhone 6s">iPhone 6s</option>
+                    <option value="iPhone 6s+">iPhone 6s+</option>
+                    <option value="iPhone 7">iPhone 7</option>
+                    <option value="iPhone 7+">iPhone 7+</option>
+                    <option value="iPhone 8">iPhone 8</option>
+                    <option value="iPhone 8+">iPhone 8+</option>
+                    <option value="iPhone X">iPhone X</option>
+                    <option value="iPhone Xs">iPhone Xs</option>
+                    <option value="iPhone XsMax">iPhone XsMax</option>
+                    <option value="iPhone Xr">iPhone Xr</option>
+                    <option value="iPhone 11">iPhone 11</option>
+                    <option value="iPhone 11pro">iPhone 11pro</option>
+                    <option value="iPhone 11pro max">iPhone 11pro max</option>
+                    <option value="iPhone 12">iPhone 12</option>
+                    <option value="iPhone 12pro">iPhone 12pro</option>
+                    <option value="iPhone 12pro max">iPhone 12pro max</option>
+                    <option value="iPhone 13">iPhone 13</option>
+                    <option value="iPhone 13pro">iPhone 13pro</option>
+                    <option value="iPhone 13pro max">iPhone 13pro max</option>
+                    <option value="iPhone 14">iPhone 14</option>
+                    <option value="iPhone 14plus">iPhone 14plus</option>
+                    <option value="iPhone 14pro">iPhone 14pro </option>
+                    <option value="iPhone 14pro max">iPhone 14pro max</option>
+                    <option value="iPhone 15">iPhone 15</option>
+                    <option value="iPhone 15+">iPhone 15+</option>
+                    <option value="iPhone 15pro">iPhone 15pro</option>
+                    <option value="iPhone 15pro max">iPhone 15pro max</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="pickup-location">Pick-up Location:</label>
+                <select id="pickup-location" name="pickup-location">
+                    <option value="UNZA">UNZA</option>
+                    <option value="RIDGEWAY">RIDGEWAY</option>
+                    <option value="UNILUS SILVEREST">UNILUS SILVEREST</option>
+                    <option value="TOWN">TOWN</option>
+                    <option value="ZCAS">ZCAS</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone number" required>
+            </div>
+            <button type="submit">Confirm Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at: <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+</body>
+</html>
